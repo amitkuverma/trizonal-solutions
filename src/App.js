@@ -1,17 +1,15 @@
 import './App.scss';
-import { HashRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './components/home';
 import { About } from './components/about';
 import { PayerServices } from './components/payer-services';
 import { HospitalsProviders } from './components/hospitals-providers';
 import { OurClients } from './components/our-clients';
 import { Blogs } from './components/blogs';
-// import { Contact } from './components/contact';
-
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -29,4 +27,3 @@ function App() {
 }
 
 export default App;
-
