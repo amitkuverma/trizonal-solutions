@@ -3,7 +3,7 @@ import "../assets/styles/layout/footer.scss";
 
 export const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer py-3 my-md-4'>
       <div className='container'>
         <div className='text-white'>Trizonal <span className='txt-clrf9'>Solutions</span></div>
 

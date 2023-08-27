@@ -36,9 +36,9 @@
         &::after {
           font-family: Arial, sans-serif;
           content: "\2023";
-          font-size: 20px;
           position: absolute;
-          top: 14.16666667px;
+          top: 9.166667px;
+          font-size: 40px;
           transform: rotate(90deg);
           color: #444444;
           height: 13px;
@@ -46,14 +46,25 @@
           line-height: 13px;
           overflow: hidden;
           opacity: 0.5;
+          @media (max-width: 991px) {
+            right: 20px;
+          }
+          @media (min-width: 992px) {
+            font-size: 20px;
+            top: 14.16666667px;
+          }
         }
       }
       .sub-menu {
         display: none;
-        position: absolute;
+        @media (min-width: 992px) {
+          position: absolute;
+        }
         ul {
           position: relative;
-          right: 36px;
+          @media (min-width: 992px) {
+            right: 36px;
+          }
           border-bottom: 4px solid #4eabf9;
           li {
             padding-bottom: 3px;
