@@ -7,7 +7,6 @@ import { HospitalsProviders } from './components/hospitals-providers';
 import { OurClients } from './components/our-clients';
 import { Blogs } from './components/blogs';
 import { Contact } from './components/contact';
-import { NoPage } from './components/no-page';
 
 
 function App() {
@@ -16,12 +15,12 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact index path="/" element={<Home />} />
-          <Route exact path="about" element={<About />} />
-          <Route exact path="hospitals-providers" element={<HospitalsProviders />} />
-          <Route exact path="payer-services" element={<PayerServices />} />
-          <Route exact path="our-clients" element={<OurClients />} />
-          <Route exact path="blogs" element={<Blogs />} />
-          <Route exact path="contact" element={<Contact />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/hospitals-providers" element={<HospitalsProviders />} />
+          <Route exact path="/payer-services" element={<PayerServices />} />
+          <Route exact path="/our-clients" element={<OurClients />} />
+          <Route exact path="/blogs" element={<Blogs />} />
+          <Route exact path="/contact" element={<Contact />} />
           <Route path="**" element={<Home />} />
         </Routes>
       </div>
