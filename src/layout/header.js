@@ -15,7 +15,7 @@ export const Header = () => {
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
          <ul className="navbar-nav">
-             <li className='nav-item'><a href='home' className="nav-link active text-uppercase pointer text-decoration-none">Home</a></li>
+             <li className='nav-item'><a href='/' className="nav-link active text-uppercase pointer text-decoration-none">Home</a></li>
              <li className='nav-item'><a href='about' className="nav-link text-uppercase pointer text-decoration-none">About</a></li>
              <li className='nav-item'><a className="nav-link text-uppercase pointer text-decoration-none service pe-3">Service</a>
                <div className='sub-menu'>

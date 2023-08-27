@@ -1,5 +1,5 @@
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 import { Home } from './components/home';
 import { About } from './components/about';
 import { PayerServices } from './components/payer-services';
@@ -15,16 +15,16 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="hospitals-providers" element={<HospitalsProviders />} />
-          <Route path="payer-services" element={<PayerServices />} />
-          <Route path="blogs" element={<PayerServices />} />
-          <Route path="out-clients" element={<OurClients />} />
-          <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
+          <Route exact index path="/" element={<Home />} />
+          <Route exact path="about" element={<About />} />
+          <Route exact path="hospitals-providers" element={<HospitalsProviders />} />
+          <Route exact path="payer-services" element={<PayerServices />} />
+          <Route exact path="blogs" element={<PayerServices />} />
+          <Route exact path="out-clients" element={<OurClients />} />
+          <Route exact path="blogs" element={<Blogs />} />
+          <Route exact path="contact" element={<Contact />} />
           <Route path="**" element={<Home />} />
+          <Redirect to="/" />
         </Routes>
       </div>
     </Router>
