@@ -1,12 +1,12 @@
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 import { Home } from './components/home';
 import { About } from './components/about';
 import { PayerServices } from './components/payer-services';
 import { HospitalsProviders } from './components/hospitals-providers';
 import { OurClients } from './components/our-clients';
 import { Blogs } from './components/blogs';
-import { Contact } from './components/contact';
+import { Contact } from './Components/contact';
 
 
 function App() {
