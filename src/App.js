@@ -14,14 +14,14 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact index path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/hospitals-providers" element={<HospitalsProviders />} />
-          <Route exact path="/payer-services" element={<PayerServices />} />
-          <Route exact path="/our-clients" element={<OurClients />} />
-          <Route exact path="/blogs" element={<Blogs />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route path="**" element={<Home />} />
+          <Route index path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/hospitals-providers" element={<HospitalsProviders />} />
+          <Route path="/payer-services" element={<PayerServices />} />
+          <Route path="/our-clients" element={<OurClients />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </div>
     </Router>
