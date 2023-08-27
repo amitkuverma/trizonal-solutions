@@ -1,13 +1,25 @@
-import React from 'react'
-import Operational from '../assets/images/operational-dev.jpg';
-import { Layout } from '../layout/layout';
+import React, { useState } from 'react'
+import Product from "./product"
+import { Button } from 'primereact/button';
+
+import { Calendar } from 'primereact/calendar';
+import store from '../store';
+
+store.subscribe(() => console.log(store.getState()))
 
 export const Home = () => {
+  const [date, setDate] = useState(null);
   return (
-    <Layout>
-      <div className='hero'>
-        <img className='img-fluid hv-100' src={Operational} alt='Operational-image' />
+    <div>
+      <div>
+        <img className='img-fluid' src='https://www.lladro.com/media/wysiwyg/banners/DVORO/desktop_EN.jpg' />
       </div>
-    </Layout>
+      <div>
+        <img className='img-fluid' src='https://www.lladro.com/media/wysiwyg/banners/PUPPIE/desktop_EN2.jpg' />
+      </div>
+      <Product />
+      <Button label="Submit" />
+      <Calendar value={date} onChange={(e) => setDate(e.value)} />
+    </div>
   )
 }

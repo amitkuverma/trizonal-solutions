@@ -1,9 +1,7 @@
-import * as React from "react";
-import { Layout } from "../layout/layout";
+import React from 'react'
+
 export const Blogs = () => {
   return (
-    <Layout>
-      <div>blogs</div>
-    </Layout>
+    <div>blogs</div>
   )
 }

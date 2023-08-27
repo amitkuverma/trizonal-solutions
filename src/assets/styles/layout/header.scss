@@ -1,81 +1,28 @@
-.header {
-  background-color: #fff;
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
-  .logo {
-    font-size: 26px;
-    font-weight: 600;
-    font-family: "Times New Roman", Times, serif;
-    .sub {
-      color: #4eabf9;
+.dropdown{
+    &:hover{
+        .inner-nav-items {
+            display: block !important;
+            background: #fff;
+            border: 1px solid #d1d1d1;
+            box-shadow: 0 5px 5px rgba(0,0,0,.19);
+            font-weight: 700;
+            min-width: 230px;
+            left: 0;
+            margin: 0!important;
+            padding: 0;
+            position: absolute;
+            z-index: 9999;
+            float: left;
+            width: 100%;
+        }
     }
-  }
-  img {
-    width: 40px;
-  }
-  ul {
-    li {
-      list-style: none;
-      position: relative;
-      &:hover {
-        .sub-menu {
-          display: block;
-        }
-      }
-      a {
-        font-size: 13px;
-        line-height: 1em;
-        padding: 10px 13px;
-        font-weight: 600;
-        color: #444444;
-        cursor: pointer;
-        &:hover {
-          color: #4eabf9;
-        }
-      }
-      .service {
-        &::after {
-          font-family: Arial, sans-serif;
-          content: "\2023";
-          font-size: 20px;
-          position: absolute;
-          top: 14.16666667px;
-          transform: rotate(90deg);
-          color: #444444;
-          height: 13px;
-          width: 13px;
-          line-height: 13px;
-          overflow: hidden;
-          opacity: 0.5;
-        }
-      }
-      .sub-menu {
-        display: none;
-        position: absolute;
-        ul {
-          position: relative;
-          right: 36px;
-          border-bottom: 4px solid #4eabf9;
-          li {
-            padding-bottom: 3px;
+}
+.inner-nav-items{
+    display: none;
+    position: absolute;
+}
 
-            &:hover {
-              background: #4eabf9;
-            }
-            a {
-              text-decoration: none;
-              padding: 5px 40px;
-              margin: 0;
-              line-height: 1em;
-              white-space: nowrap;
-              width: 100%;
-              &:hover {
-                background: #4eabf9;
-                color: #ffffff;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+.inner-dropdown{
+    display: flex;
+    max-width: 100%;
 }
