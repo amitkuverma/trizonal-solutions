@@ -24,7 +24,6 @@ function App() {
           <Route exact path="blogs" element={<Blogs />} />
           <Route exact path="contact" element={<Contact />} />
           <Route path="**" element={<Home />} />
-          <Redirect to="/" />
         </Routes>
       </div>
     </Router>
