@@ -4,16 +4,16 @@ import logo from "../assets/images/logo.png"
 
 export const Header = () => {
   return (  
-    <nav class="navbar navbar-expand-sm sticky-top header">
-      <div class="container ">
+    <nav className="navbar navbar-expand-sm sticky-top header">
+      <div className="container ">
         <a href='/' className="navbar-brand pointer logo">
           <img src={logo} alt='logo' />
           Trizonal <span className="sub">Solutions</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
          <ul className="navbar-nav">
              <li className='nav-item'><a href='/' className="nav-link active text-uppercase pointer text-decoration-none">Home</a></li>
              <li className='nav-item'><a href='/about' className="nav-link text-uppercase pointer text-decoration-none">About</a></li>
