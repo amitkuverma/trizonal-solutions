@@ -14,7 +14,7 @@ function App() {
     <Router basename="/">
       <div className="App">
         <Routes>
-          <Route index path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/hospitals-providers" element={<HospitalsProviders />} />
           <Route path="/payer-services" element={<PayerServices />} />
