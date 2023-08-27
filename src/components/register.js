@@ -2,7 +2,6 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { UserDetails } from './userDetails'
 import { useNavigate } from "react-router-dom";
 
 export const Register = () => {
