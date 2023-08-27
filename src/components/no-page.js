@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Layout } from "../layout/layout"
 
 export const NoPage = () => {
   return (
-    <div>NoPage</div>
+    <Layout>
+      <div>NoPage</div>
+    </Layout>
   )
 }
