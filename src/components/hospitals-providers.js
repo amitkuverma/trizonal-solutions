@@ -3,7 +3,7 @@ import { Layout } from "../layout/layout";
 
 export const HospitalsProviders = () => {
     return (
-        <Layout>
+        <Layout active={"service"}>
             <div>Hospitals & Providers</div>
         </Layout>
     )

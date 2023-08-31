@@ -7,6 +7,7 @@ import { PayerServices } from './components/payer-services';
 import { HospitalsProviders } from './components/hospitals-providers';
 import { OurClients } from './components/our-clients';
 import { Blogs } from './components/blogs';
+import { Contact } from './components/contact';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/payer-services" element={<PayerServices />} />
           <Route path="/our-clients" element={<OurClients />} />
           <Route path="/blogs" element={<Blogs />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </div>

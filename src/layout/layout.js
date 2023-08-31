@@ -2,10 +2,10 @@ import React from 'react'
 import { Header } from './header'
 import { Footer } from './footer'
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, active }) => {
     return (
         <>
-            <Header />
+            <Header active={active}  />
             {children}
             <Footer />
         </>

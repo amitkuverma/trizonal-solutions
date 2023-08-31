@@ -3,7 +3,7 @@ import { Layout } from "../layout/layout";
 
 export const About = () => {
     return (
-        <Layout>
+        <Layout active={"about"}>
             <div>About</div>
         </Layout>
     )

@@ -1,10 +1,10 @@
-import React from "react";
+import * as React from "react";
 import { Layout } from "../layout/layout";
 
 export const Contact = () => {
-  return (
-    <Layout>
-      <div>NoPage</div>
-    </Layout>
-  )
+    return (
+        <Layout active={"contact"}>
+            <div>Contact</div>
+        </Layout>
+    )
 }

@@ -3,7 +3,7 @@ import { Layout } from "../layout/layout";
 
 export const OurClients = () => {
     return (
-        <Layout>
+        <Layout active={"clients"}>
             <div>Our Clients</div>
         </Layout>
     )

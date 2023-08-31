@@ -9,10 +9,13 @@
       color: #4eabf9;
     }
   }
+
   img {
     width: 40px;
   }
+
   ul {
+    transition: all 100ms ease-in-out;
     li {
       list-style: none;
       position: relative;
@@ -71,6 +74,9 @@
 
             &:hover {
               background: #4eabf9;
+              .inner-sub {
+                display: block;
+              }
             }
             a {
               text-decoration: none;
@@ -81,12 +87,50 @@
               width: 100%;
               &:hover {
                 background: #4eabf9;
-                color: #ffffff;
+                color: #ffffff !important;
+              }
+              &:active{
+                background: #4eabf9;
+                color: #ffffff !important;
+              }
+            }
+            .inner-sub {
+              display: none;
+              height: auto;
+              display: none;
+              position: absolute;
+              background-color: #ffffff;
+              top: -12px;
+              padding: 12px 0;
+              width: fit-content !important;
+              left: 100%;
+              transition: all 100ms ease-in-out;
+              a {
+                text-decoration: none;
+                padding: 5px 40px;
+                margin: 0;
+                line-height: 1em;
+                white-space: nowrap;
+                width: 100%;
+                &:hover {
+                  background: #4eabf9;
+                  color: #ffffff !important;
+                  .sub-menu {
+                    a {
+                      background: #4eabf9;
+                      color: #ffffff !important;
+                    }
+                  }
+                }
               }
             }
           }
         }
       }
     }
+  }
+
+  .active {
+    color: #4eabf9;
   }
 }
