@@ -1,0 +1,27 @@
+.elementor-element-populated {
+  background-image: url(https://catalystsolutions.com/wp-content/uploads/2022/04/drive-operational-outcomes-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;  
+  position: relative;
+}
+.elementor-background-overlay {
+  background-color: #004449;
+  opacity: 0.65;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+}
+.elementor-image-box-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elementor {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+

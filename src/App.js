@@ -8,6 +8,7 @@ import { HospitalsProviders } from './components/hospitals-providers';
 import { OurClients } from './components/our-clients';
 import { Blogs } from './components/blogs';
 import { Contact } from './components/contact';
+import { VerdorClaimServices } from './components/vendor-claim-services'
 
 function App() {
   return (

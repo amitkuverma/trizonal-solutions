@@ -78,6 +78,9 @@
                 display: block;
               }
             }
+            &:active {
+              color: #4eabf9 !important;
+            }
             a {
               text-decoration: none;
               padding: 5px 40px;
@@ -89,7 +92,7 @@
                 background: #4eabf9;
                 color: #ffffff !important;
               }
-              &:active{
+              &:active {
                 background: #4eabf9;
                 color: #ffffff !important;
               }
@@ -128,9 +131,5 @@
         }
       }
     }
-  }
-
-  .active {
-    color: #4eabf9;
   }
 }
