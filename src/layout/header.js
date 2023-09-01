@@ -21,7 +21,7 @@ export const Header = (props) => {
             <li className='nav-item'><Link className={`nav-link text-uppercase pointer text-decoration-none service pe-3 ${props.active == "service" ? "active" : ""}`}>Service</Link>
               <div className='sub-menu'>
                 <ul className='ps-0 py-4 bg-white'>
-                  <li><Link to={"/payer-services"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "service" ? "active" : ""}`}>Payer Services</Link>
+                  <li><Link to={"/payer-services"} className={`nav-link text-uppercase pointer text-decoration-none`}>Payer Services</Link>
                     <ul className='inner-sub navbar-nav'>
                       <li className='nav-item'><a href="#vendor"  className='nav-link text-uppercase pointer text-decoration-none'>Vendor Claim System Services</a></li>
                       <li className='nav-item'><a href="#services" className='nav-link text-uppercase pointer text-decoration-none'>Implementation Services</a></li>

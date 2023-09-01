@@ -9,10 +9,10 @@ export const PayerServices = () => {
                 <h1 className="main-service p-4 text-white fnt-lg-42">Service</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-12 col-md-6">
                             <img className="img-fluid" src="https://healthallconsult.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-08-at-4.45.56-PM.png" alt="wp-content" />
                         </div>
-                        <div className="wpb_column vc_column_container col-6">
+                        <div className="wpb_column vc_column_container col-12 col-md-6">
                             <div className="wpb_wrapper">
                                 <div className="wpb_text_column wpb_content_element ">
                                     <div className="wpb_wrapper">

@@ -2,14 +2,25 @@ import React from 'react'
 import Operational from '../assets/images/operational-dev.jpg';
 import { Layout } from '../layout/layout';
 import { Link } from 'react-router-dom';
+import '../assets/styles/conponents/home.scss'
 
 export const Home = () => {
   return (
     <Layout active={"home"}>
       <div className='hero'>
-        <section>
-          <div>
-            <img className='img-fluid w-100' src={Operational} alt='Operational-image' />
+        <section className='main-section'>
+          <div className='main'>
+            {/* <img className='img-fluid w-100' src={Operational} alt='Operational-image' /> */}
+            <div className='container'>
+              <div className='health'>
+                <div className='transparent p-5 animated slideInUp'>
+                  <div className='text-01 text-white'>HEALTHALL <br /> CONSULTING</div>
+                  <div className='text-02 text-white'>Your trusted business partner for <br /> Hospitals and Payers.</div>
+                  <p className='text-white'>Contact us for quality and value you can trust.</p>
+                  <button className='btn get-btn btn-primary py-2 px-3'>Get in touch</button>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

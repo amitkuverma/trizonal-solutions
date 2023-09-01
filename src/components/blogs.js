@@ -8,7 +8,7 @@ export const Blogs = () => {
       <div className="bg-dark">
         <div className="container">
           <div className="row py-5">
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <div className="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-image-box-content text-center w-75">
@@ -18,10 +18,10 @@ export const Blogs = () => {
               </div>
             </div>
 
-            {/* <div className="col-6">
+            {/* <div className="col-12 col-lg-6">
               <img className="img-fluid" src="https://catalystsolutions.com/wp-content/uploads/2022/04/billing-background.jpg" alt="wp-content" />
             </div> */}
-            <div className="wpb_column vc_column_container col-6">
+            <div className="wpb_column vc_column_container col-12 col-lg-6">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element ">
                   <div className="wpb_wrapper">
@@ -51,7 +51,7 @@ export const Blogs = () => {
         </div>
         <div className="container">
           <div className="row pt-5">
-            <div className="wpb_column vc_column_container col-6">
+            <div className="wpb_column vc_column_container col-12 col-lg-6">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element ">
                   <div className="wpb_wrapper">
@@ -76,7 +76,7 @@ export const Blogs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <img className="img-fluid" src="https://catalystsolutions.com/wp-content/uploads/2022/04/billing-background.jpg" alt="wp-content" />
             </div>
           </div>

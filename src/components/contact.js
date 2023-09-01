@@ -4,7 +4,7 @@ import { Layout } from "../layout/layout";
 export const Contact = () => {
     return (
         <Layout active={"contact"}>
-            <div>Contact</div>
+            <h1 className="common-header p-4 text-white fnt-lg-42">Contact</h1>
         </Layout>
     )
 }

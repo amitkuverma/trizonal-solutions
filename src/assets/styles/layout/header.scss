@@ -13,6 +13,9 @@
   img {
     width: 40px;
   }
+  .active {
+    color: #4eabf9 !important;
+  }
 
   ul {
     transition: all 100ms ease-in-out;
@@ -23,11 +26,15 @@
         .sub-menu {
           display: block;
         }
+        a {
+          &:hover {
+            color: #4eabf9;
+          }
+        }
       }
       a {
         font-size: 13px;
         line-height: 1em;
-        padding: 10px 13px;
         font-weight: 600;
         color: #444444;
         cursor: pointer;
@@ -71,30 +78,23 @@
           border-bottom: 4px solid #4eabf9;
           li {
             padding-bottom: 3px;
-
             &:hover {
               background: #4eabf9;
+              color: #ffffff;
               .inner-sub {
                 display: block;
               }
-            }
-            &:active {
-              color: #4eabf9 !important;
-            }
-            a {
-              text-decoration: none;
-              padding: 5px 40px;
-              margin: 0;
-              line-height: 1em;
-              white-space: nowrap;
-              width: 100%;
-              &:hover {
-                background: #4eabf9;
-                color: #ffffff !important;
-              }
-              &:active {
-                background: #4eabf9;
-                color: #ffffff !important;
+              a {
+                text-decoration: none;
+                padding: 5px 40px;
+                margin: 0;
+                line-height: 1em;
+                white-space: nowrap;
+                width: 100%;
+                &:hover {
+                  background: #4eabf9;
+                  color: #ffffff !important;
+                }
               }
             }
             .inner-sub {
