@@ -16,10 +16,11 @@ export const Header = (props) => {
         </button>
         <div className="collapse navbar-collapse justify-content-end menu_container" id="navbarSupportedContent">
           <ul className="navbar-nav main_menu hover_menu">
-            <li className="nav-item"><Link to={"/"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "home" ? "active" : ""}`}>Home</Link></li>
-            <li className="nav-item"><Link to={"/about"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "about" ? "active" : ""}`}>About</Link></li>
+            <li className="nav-item btm-br"><Link to={"/"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "home" ? "active" : ""}`}>Home</Link></li>
+            <li className="nav-item btm-br"><Link to={"/about"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "about" ? "active" : ""}`}>About</Link></li>
             <li class="nav-item dropdown">
-              <Link to={"/service"} className={`nav-link text-uppercase pointer dropdown-toggle text-decoration-none service pe-3 ${props.active == "service" ? "active" : ""}`} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</Link>
+              <Link to={"/service"} className={`d-none d-md-block nav-link text-uppercase pointer dropdown-toggle text-decoration-none pe-3 ${props.active == "service" ? "active" : ""}`} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</Link>
+              <Link className={`d-md-none nav-link text-uppercase pointer dropdown-toggle text-decoration-none service-mob pe-3 ${props.active == "service" ? "active" : ""}`} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</Link>
               <div class="dropdown-menu dropdown-menu-top" aria-labelledby="navbarDropdown">
                 <li className='dropdown inner-dropdown'>
                   <Link to={"/service"} className={`dropdown-item ${props.active == "service" ? "dropdown-active" : ""}`}>Payer Service</Link>
@@ -32,8 +33,8 @@ export const Header = (props) => {
                 <a class="dropdown-item" href="#">Another action</a>
               </div>
             </li>
-            <li className='nav-item'><Link to={"/our-clients"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "clients" ? "active" : ""}`}>Our Clients</Link></li>
-            <li className='nav-item'><Link to={"/blogs"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "blogs" ? "active" : ""}`}>Blogs</Link></li>
+            <li className='nav-item btm-br top-br'><Link to={"/our-clients"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "clients" ? "active" : ""}`}>Our Clients</Link></li>
+            <li className='nav-item btm-br'><Link to={"/blogs"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "blogs" ? "active" : ""}`}>Blogs</Link></li>
             <li className='nav-item'><Link to={"/contact"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "contact" ? "active" : ""}`}>Contact</Link></li>
           </ul>
         </div>
