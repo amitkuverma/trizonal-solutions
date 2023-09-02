@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../assets/styles/layout/header.scss"
 import logo from "../assets/images/logo.png"
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Header = (props) => {
   return (
@@ -14,21 +14,15 @@ export const Header = (props) => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul className="navbar-nav">
+        <div className="collapse navbar-collapse justify-content-end menu_container" id="navbarSupportedContent">
+          <ul className="navbar-nav main_menu hover_menu">
             <li className="nav-item"><Link to={"/"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "home" ? "active" : ""}`}>Home</Link></li>
             <li className="nav-item"><Link to={"/about"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "about" ? "active" : ""}`}>About</Link></li>
-            <li className='nav-item'><Link className={`nav-link text-uppercase pointer text-decoration-none service pe-3 ${props.active == "service" ? "active" : ""}`}>Service</Link>
-              <div className='sub-menu'>
-                <ul className='ps-0 py-4 bg-white'>
-                  <li><Link to={"/payer-services"} className={`nav-link text-uppercase pointer text-decoration-none`}>Payer Services</Link>
-                    <ul className='inner-sub navbar-nav'>
-                      <li className='nav-item'><a href="#vendor"  className='nav-link text-uppercase pointer text-decoration-none'>Vendor Claim System Services</a></li>
-                      <li className='nav-item'><a href="#services" className='nav-link text-uppercase pointer text-decoration-none'>Implementation Services</a></li>
-                    </ul>
-                  </li>
-                  <li></li>
-                </ul>
+            <li class="nav-item dropdown">
+              <Link to={"/service"} className={`nav-link text-uppercase pointer dropdown-toggle text-decoration-none service pe-3 ${props.active == "service" ? "active" : ""}`} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</Link>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <Link to={"/service"} className={`dropdown-item ${props.active == "service" ? "dropdown-active" : ""}`}>Payer Service</Link>
+                <a class="dropdown-item" href="#">Another action</a>
               </div>
             </li>
             <li className='nav-item'><Link to={"/our-clients"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "clients" ? "active" : ""}`}>Our Clients</Link></li>

@@ -2,11 +2,10 @@ import * as React from "react";
 import { Layout } from "../layout/layout";
 import '../assets/styles/conponents/payer-service.scss'
 
-export const PayerServices = () => {
+export const Services = () => {
     return (
         <Layout active={"service"}>
             <div className="">
-                <h1 className="main-service p-4 text-white fnt-lg-42">Service</h1>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6">
@@ -31,14 +30,13 @@ export const PayerServices = () => {
                             <p><span class="cstm-text-blue">HealthAll Consulting</span>&nbsp;focuses on delivering expert consulting services that assist organizations to optimize their Electronic Health Record (EHR) investments through processes that will maximize integration, workflow, and outcomes.</p>
                             <p>Our industry is actively embracing as well as encouraging all providers and payers to implement telehealth solutions. At HealthAll Consulting, we are experienced and prepared to help your organization implement, rollout, and support your telehealth objectives.</p>
                             <p>Overall,&nbsp;HealthAll Consulting&nbsp;clients include; Hospitals, IDN’s, HMO’s, PPO’s, TPA’s, Blue Cross and Blue Shield plans, software vendors, and global consulting firm business partners throughout the United States, Latin America, and the Caribbean.</p>
-
                         </div>
                     </div>
                     <br />
 
                 </div>
 
-                <session id="vendor">
+                <session id="payerService">
                     <div className="container" ><div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
                             <h2>PAYERS</h2>
