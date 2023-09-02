@@ -20,8 +20,15 @@ export const Header = (props) => {
             <li className="nav-item"><Link to={"/about"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "about" ? "active" : ""}`}>About</Link></li>
             <li class="nav-item dropdown">
               <Link to={"/service"} className={`nav-link text-uppercase pointer dropdown-toggle text-decoration-none service pe-3 ${props.active == "service" ? "active" : ""}`} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</Link>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link to={"/service"} className={`dropdown-item ${props.active == "service" ? "dropdown-active" : ""}`}>Payer Service</Link>
+              <div class="dropdown-menu dropdown-menu-top" aria-labelledby="navbarDropdown">
+                <li className='dropdown inner-dropdown'>
+                  <Link to={"/service"} className={`dropdown-item ${props.active == "service" ? "dropdown-active" : ""}`}>Payer Service</Link>
+                  <div class="dropdown-menu dropdown-menu-inner" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Strategic Consulting</a>
+                    <a class="dropdown-item" href="#">Vendor Claim System Services</a>
+                    <a class="dropdown-item" href="#">Implementation Services</a>
+                  </div>
+                </li>
                 <a class="dropdown-item" href="#">Another action</a>
               </div>
             </li>

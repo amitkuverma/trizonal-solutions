@@ -39,7 +39,7 @@
         text-align: left;
         position: relative;
         &:hover {
-          .dropdown-menu {
+          .dropdown-menu-top {
             display: block;
           }
         }
@@ -56,11 +56,41 @@
           }
         }
       }
-      .dropdown-menu {
+      li {
+        border-bottom: solid 1px #cccccc;
+      }
+      .inner-dropdown {
+        &::after {
+          content: "\203A";
+          position: absolute;
+          font-family: Arial, sans-serif;
+          top: 0px;
+          right: 15px;
+          font-size: 20px;
+          line-height: 1em;
+          font-weight: bold;
+        }
+        &:hover {
+          .dropdown-menu-inner {
+            display: block;
+          }
+        }
+      }
+      .dropdown-menu-inner {
+        @media (min-width: 767px) {
+          position: absolute;
+          left: 100%;
+          top: -18px;
+        }
+      }
+      .dropdown-menu-top,
+      .dropdown-menu-inner {
         border: none;
         padding: 17px 0px;
         border-radius: inherit;
-        border-bottom: 4px solid #4eabf9;
+        @media (min-width: 767px) {
+          border-bottom: 4px solid #4eabf9;
+        }
         .dropdown-item {
           &:hover {
             background-color: #4eabf9;
