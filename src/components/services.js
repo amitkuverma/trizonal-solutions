@@ -25,9 +25,9 @@ export const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="wpb_text_column wpb_content_element ">
-                        <div class="wpb_wrapper">
-                            <p><span class="cstm-text-blue">HealthAll Consulting</span>&nbsp;focuses on delivering expert consulting services that assist organizations to optimize their Electronic Health Record (EHR) investments through processes that will maximize integration, workflow, and outcomes.</p>
+                    <div className="wpb_text_column wpb_content_element ">
+                        <div className="wpb_wrapper">
+                            <p><span className="cstm-text-blue">HealthAll Consulting</span>&nbsp;focuses on delivering expert consulting services that assist organizations to optimize their Electronic Health Record (EHR) investments through processes that will maximize integration, workflow, and outcomes.</p>
                             <p>Our industry is actively embracing as well as encouraging all providers and payers to implement telehealth solutions. At HealthAll Consulting, we are experienced and prepared to help your organization implement, rollout, and support your telehealth objectives.</p>
                             <p>Overall,&nbsp;HealthAll Consulting&nbsp;clients include; Hospitals, IDN’s, HMO’s, PPO’s, TPA’s, Blue Cross and Blue Shield plans, software vendors, and global consulting firm business partners throughout the United States, Latin America, and the Caribbean.</p>
                         </div>
@@ -37,10 +37,10 @@ export const Services = () => {
                 </div>
 
                 <session id="payerService">
-                    <div className="container" ><div class="wpb_text_column wpb_content_element ">
-                        <div class="wpb_wrapper">
+                    <div className="container" ><div className="wpb_text_column wpb_content_element ">
+                        <div className="wpb_wrapper">
                             <h2>PAYERS</h2>
-                            <p><b><span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span></b>&nbsp;We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost. We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.</p>
+                            <p><b><span className="cstm-text-blue-unitalic">At&nbsp;<span className="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span></b>&nbsp;We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost. We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.</p>
                             <p>Our portfolio of consulting services includes unique proprietary tools that we bring to our client engagements. These tools deliver knowledge, planning, and structure to ensure project success and avoid budget overruns.</p>
                             <p><strong>See each category below to find out more information:</strong></p>
 
@@ -49,10 +49,10 @@ export const Services = () => {
                     </div>
                 </session>
                 <session id="Implementation">
-                    <div className="container" ><div class="wpb_text_column wpb_content_element ">
-                        <div class="wpb_wrapper">
+                    <div className="container" ><div className="wpb_text_column wpb_content_element ">
+                        <div className="wpb_wrapper">
                             <h2>Implementation Service</h2>
-                            <p><b><span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span></b> We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost. We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.</p>
+                            <p><b><span className="cstm-text-blue-unitalic">At&nbsp;<span className="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span></b> We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost. We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.</p>
                         </div>
                     </div>
                     </div>

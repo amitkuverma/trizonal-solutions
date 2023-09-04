@@ -147,7 +147,7 @@ export const Home = () => {
                 </div>
                 <div className='col-12 col-lg-4 ms-lg-3'>
                   <div className='text-white fnt-18 fw-900 fnt-fly fnt-18'>OUR PROMISE TO YOU</div>
-                  <div class="">
+                  <div>
                     <p className='text-white'>At HealthAll Consulting, we provide “<strong>QUALITY</strong>” consulting that will meet the specific needs of your business.</p>
                     <p className='text-white'>We are committed to providing our clients with the “<strong>BEST VALUE</strong>” for their investment.</p>
                     <p className='text-white'>HealthAll Consulting strives to create a lasting partnership with our clients based on “<strong>TRUST.</strong>”</p>
