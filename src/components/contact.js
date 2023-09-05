@@ -24,23 +24,23 @@ export const Contact = () => {
                         <div className="col-12 col-md-6 bg-clr70 py-4 px-3 py-md-5 px-md-4">
                             <h1 className="text-white">CONTACT US TODAY!</h1>
                             <form onSubmit={sendEmail}>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label text-white fw-bold">Your Name (required)</label>
-                                    <input type="text" name="from_name" class="form-control fw-bold" placeholder="Recipient Name" required />
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Name (required)</label>
+                                    <input type="text" name="from_name" className="form-control fw-bold" placeholder="Recipient Name" required />
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label text-white fw-bold">Your Email (required)</label>
-                                    <input type="email" name="from_email" class="form-control fw-bold" placeholder="Recipient Email" required />
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Email (required)</label>
+                                    <input type="email" name="from_email" className="form-control fw-bold" placeholder="Recipient Email" required />
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label text-white fw-bold">Subject</label>
-                                    <input type="text" name="subject" class="form-control fw-bold" placeholder="Subject" />
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Subject</label>
+                                    <input type="text" name="subject" className="form-control fw-bold" placeholder="Subject" />
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label text-white fw-bold">Your Message</label>
-                                    <textarea name="message" rows={8} class="form-control fw-bold" placeholder="Message" />
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Message</label>
+                                    <textarea name="message" rows={8} className="form-control fw-bold" placeholder="Message" />
                                 </div>
-                                <button type="submit" class="btn btn-primary">Send</button>
+                                <button type="submit" className="btn btn-primary">Send</button>
                             </form>
                         </div>
                         <div className="col-12 col-md-6">

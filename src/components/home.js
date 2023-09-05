@@ -2,6 +2,10 @@ import React from 'react'
 import { Layout } from '../layout/layout';
 import { Link } from 'react-router-dom';
 import '../assets/styles/conponents/home.scss'
+import Book from '../assets/images/strive-test.png';
+import Strive from '../assets/images/icon_med_book_white.png';
+import Doctor from '../assets/images/icon_doctor1.png';
+
 
 export const Home = () => {
   return (
@@ -16,6 +20,46 @@ export const Home = () => {
                   <div className='text-02 text-white fnt-20 fnt-md-30'>Your trusted business partner for <br /> Hospitals and Payers.</div>
                   <p className='text-white fnt-16 d-none d-md-block'>Contact us for quality and value you can trust.</p>
                   <button className='btn get-btn btn-primary py-2 px-3'>Get in touch</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-12 col-md-4 rhom1 bg-clr11 py-3 py-md-4 py-lg-5 mb-3'>
+                <div className='text-center'>
+                  <img className='img-fluid' src={Strive} alt='Strive' />
+                  <div>
+                    <h4 className="text-white">
+                      ELECTRONIC HEALTH RECORDS &amp; TELEMED
+                    </h4>
+                    <p className="text-white">Taking Care of Patients</p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-12 col-md-4 rhom2 bg-clr12 py-3 py-md-4 py-lg-5 mb-3'>
+                <div className='text-center'>
+                  <img className='img-fluid' src={Book} alt='Book' />
+                  <div>
+                    <h4 className="text-white">
+                      ELECTRONIC HEALTH RECORDS &amp; TELEMED
+                    </h4>
+                    <p className="text-white">Taking Care of Patients</p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-12 col-md-4 rhom1 bg-clr13 py-3 py-md-4 py-lg-5 mb-3'>
+                <div className='text-center'>
+                  <img className='img-fluid' src={Doctor} alt='Doctor' />
+                  <div>
+                    <h4 className="text-white">
+                      ELECTRONIC HEALTH RECORDS &amp; TELEMED
+                    </h4>
+                    <p className="text-white">Taking Care of Patients</p>
+                  </div>
                 </div>
               </div>
             </div>

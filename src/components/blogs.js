@@ -2,10 +2,21 @@ import * as React from "react";
 import { Layout } from "../layout/layout";
 import '../assets/styles/conponents/blogs.scss';
 import { Link } from "react-router-dom";
+import HeaderImage from '../assets/images/blogs-header.png'
 
 export const Blogs = () => {
   return (
     <Layout active={"blogs"}>
+      <div className="blogs">
+        <div className="blogs-header">
+          <img className="img-fluid" src={HeaderImage} alt="HeaderImage" />
+          <div className="hdr-blog w-100">
+            <div className="container">
+              <h1 className="fnt-fly py-2 py-md-4 text-white fnt-24 fnt-md-36 fnt-md-40 fw-900 text-capitalize">THE BLOGS</h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="main-blogs">
         {/* 01 */}
         <div className="container px-0">
@@ -218,9 +229,9 @@ export const Blogs = () => {
         <div className="support">
           <div className="row mx-0 justify-content-end">
             <div className="col-lg-8 bg-clr49 p-4 p-lg-5">
-              <div class="service-widget-wrap">
-                <h4 class="text-center text-white">Client Led Initiatives</h4>
-                <h2 class="text-center text-white">Support Services</h2>
+              <div className="service-widget-wrap">
+                <h4 className="text-center text-white">Client Led Initiatives</h4>
+                <h2 className="text-center text-white">Support Services</h2>
                 <hr className="text-white" />
                 <p className="text-white">The key focus of Catalyst’s Operational Readiness services is managing the human element of project implementations and minimizing the negative effects of change on the workforce. Operational Readiness helps the plan’s resources understand their jobs from end-to-end and ensures productivity and efficiency are not adversely affected by whatever change the project team introduces.</p>
                 <ul>
@@ -232,10 +243,10 @@ export const Blogs = () => {
               </div>
 
 
-              <div class="button-wrapper pt-3">
+              <div className="button-wrapper pt-3">
                 <Link to="/contact" role="button">
-                  <span class="elementor-button-text fw-bold">Get started</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon fill="#d19b2d" points="0 0, 10 3.5, 0 7"></polygon></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#d19b2d" stroke-width="6" marker-end="url(#arrowhead)"></line></svg>
+                  <span className="elementor-button-text fw-bold">Get started</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon fill="#d19b2d" points="0 0, 10 3.5, 0 7"></polygon></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#d19b2d" stroke-width="6"></line></svg>
                 </Link>
               </div>
             </div>

@@ -35,16 +35,16 @@ export const About = () => {
 
                         </div>
                     </div>
-                    <div class="include_wrapper">
+                    <div className="include_wrapper">
                         <h3 className="text-uppercase">Our Clients include:</h3>
                         <ul className="ps-3">
                             <li>Hospitals, IDN’s, HMO’s, PPO’s, TPA’s, Blue Cross and Blue Shield plans, software vendors, physician practices and global consulting firm business partners throughout the United States, and the Caribbean.</li>
                         </ul>
-                        <p className="py-3 py-md-y"><span class="cstm-text-blue">HealthAll Consulting’s service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services.</span> Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
+                        <p className="py-3 py-md-y"><span className="cstm-text-blue">HealthAll Consulting’s service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services.</span> Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
                     </div>
                     <div className="col-md-8 col-12">
 
-                        <div class="wpb_wrapper">
+                        <div className="wpb_wrapper">
                             <h3 className="text-uppercase">About Us</h3>
                             <p>Our professional management consulting services focus exclusively on the healthcare industry dedicated to serving hospitals, health systems and payers.</p>
                             <p>At HealthAll Consulting, we understand your business, that is the business of healthcare.</p>
