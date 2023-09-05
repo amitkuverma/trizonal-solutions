@@ -12,7 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.br-f9-1{
+  border: 1px solid #4eabf9;
+}
 .txt-clrf9 {
   color: #4eabf9;
 }
@@ -45,19 +47,6 @@ code {
   color: rgb(118, 6, 6);
 }
 
-.fnt-16 {
-  font-size: 16px;
-}
-.fnt-18 {
-  font-size: 18px;
-}
-.fnt-20 {
-  font-size: 20px;
-}
-.fnt-36 {
-  font-size: 36px;
-}
-
 .update-btn {
   padding: 8px 24px !important;
   @media (min-width: 767px) {
@@ -71,12 +60,29 @@ code {
   }
 }
 
+
+.fnt-16 {
+  font-size: 16px;
+}
+.fnt-18 {
+  font-size: 18px;
+}
+.fnt-20 {
+  font-size: 20px;
+}
+.fnt-36 {
+  font-size: 36px;
+}
+
 @media (min-width: 768px) {
   .fnt-md-30 {
     font-size: 30px;
   }
   .fnt-md-36 {
     font-size: 36px;
+  }
+  .fnt-md-40 {
+    font-size: 40px;
   }
   .fnt-md-45 {
     font-size: 45px;

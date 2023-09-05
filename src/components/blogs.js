@@ -216,7 +216,7 @@ export const Blogs = () => {
         </div>
         {/* support service */}
         <div className="support">
-          <div className="row justify-content-end">
+          <div className="row mx-0 justify-content-end">
             <div className="col-lg-8 bg-clr49 p-4 p-lg-5">
               <div class="service-widget-wrap">
                 <h4 class="text-center text-white">Client Led Initiatives</h4>
