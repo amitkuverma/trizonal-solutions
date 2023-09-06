@@ -61,6 +61,9 @@ code {
 }
 
 
+.fnt-15 {
+  font-size: 15px;
+}
 .fnt-16 {
   font-size: 16px;
 }
@@ -70,11 +73,20 @@ code {
 .fnt-20 {
   font-size: 20px;
 }
+.fnt-22 {
+  font-size: 22px;
+}
+.fnt-24 {
+  font-size: 24px;
+}
 .fnt-36 {
   font-size: 36px;
 }
 
 @media (min-width: 768px) {
+  .fnt-md-24 {
+    font-size: 24px;
+  }
   .fnt-md-30 {
     font-size: 30px;
   }

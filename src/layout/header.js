@@ -23,14 +23,13 @@ export const Header = (props) => {
               <Link className={`d-md-none nav-link text-uppercase pointer dropdown-toggle text-decoration-none service-mob pe-3 ${props.active == "service" ? "active" : ""}`} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</Link>
               <div className="dropdown-menu dropdown-menu-top" aria-labelledby="navbarDropdown">
                 <li className='dropdown inner-dropdown'>
-                  <Link to={"/service"} className={`dropdown-item ${props.active == "service" ? "dropdown-active" : ""}`}>Payer Service</Link>
+                  <a href="/service#payers_service" className={`dropdown-item ${props.active == "service" ? "dropdown-active" : ""}`}>Payer Service</a>
                   <div className="dropdown-menu dropdown-menu-inner" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#">Strategic Consulting</a>
-                    <a className="dropdown-item" href="#">Vendor Claim System Services</a>
-                    <a className="dropdown-item" href="#">Implementation Services</a>
+                    <a className="dropdown-item" href="/service#vendor">Vendor Claim System Services</a>
+                    <a className="dropdown-item" href="/service#implementation">Implementation Services</a>
+                    <a className="dropdown-item" href="/service#operations_service">Operations Consulting</a>
                   </div>
                 </li>
-                <a className="dropdown-item" href="#">Another action</a>
               </div>
             </li>
             <li className='nav-item btm-br top-br'><Link to={"/our-clients"} className={`nav-link text-uppercase pointer text-decoration-none ${props.active == "clients" ? "active" : ""}`}>Our Clients</Link></li>
