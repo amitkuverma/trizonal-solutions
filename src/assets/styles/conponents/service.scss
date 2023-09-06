@@ -1,7 +1,7 @@
 .claims-service {
-  padding: 40px 20px 50px 20px;
+  padding: 40px 0px 50px;
   @media (min-width: 768px) {
-    padding: 60px 30px 50px 30px;
+    padding: 60px 0px 50px;
   }
   @media (min-width: 992px) {
     padding: 0px;
@@ -78,6 +78,23 @@
   }
 }
 
-.lh-225{
-    line-height: 22.5px
+.service-tabs {
+  .nav-item {
+    .active {
+      background-color: #4092df !important;
+      color: #ffffff !important;
+    }
+    .tab-btn {
+      color: #000000;
+      width: fit-content;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-left-radius: 0px !important;
+      border-bottom-right-radius: 0px !important;
+    }
+  }
+}
+
+.service-box{
+  position: relative;
 }

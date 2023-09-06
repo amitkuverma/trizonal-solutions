@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ServiceImage from '../assets/images/service-main.png'
 
 export const Services = () => {
-    const [activeTab, setActiveTab] = React.useState("pills-home");
+    const [activeTab, setActiveTab] = React.useState("pills-Vendor");
 
     const handleTabClick = (tabId) => {
         setActiveTab(tabId);
@@ -41,21 +41,21 @@ export const Services = () => {
                 </div>
                 {/* Tab  */}
 
-                <div className="container pt-3 pt-md-4">
-                    <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <div className="container pt-3 pt-md-4 service-tabs">
+                    <ul className="nav nav-pills" id="pills-tab" role="tablist">
                         <li className="nav-item" role="presentation">
                             <button
-                                className={`nav-link ${activeTab === "pills-home" ? "active" : ""}`}
-                                onClick={() => handleTabClick("pills-home")}
+                                className={`bg-white tab-btn nav-link fnt-fly fw-bold ${activeTab === "pills-Vendor" ? "active" : ""}`}
+                                onClick={() => handleTabClick("pills-Vendor")}
                             >
                                 Vendor Claim System Services
                             </button>
                         </li>
                         <li className="nav-item" role="presentation">
                             <button
-                                className={`nav-link ${activeTab === "pills-profile" ? "active" : ""
+                                className={`bg-white tab-btn nav-link fnt-fly fw-bold ${activeTab === "pills-implementation" ? "active" : ""
                                     }`}
-                                onClick={() => handleTabClick("pills-profile")}
+                                onClick={() => handleTabClick("pills-implementation")}
                             >
                                 Implementation Services
                             </button>
@@ -63,16 +63,21 @@ export const Services = () => {
 
                     </ul>
 
-                    <div className="tab-content" id="pills-tabContent">
+                    <div className="tab-content bg-white" id="pills-tabContent">
                         <div
-                            className={`tab-pane fade ${activeTab === "pills-home" ? "show active" : ""
+                            className={`tab-pane fade ${activeTab === "pills-Vendor" ? "show active" : ""
                                 }`}
-                            id="pills-home"
+                            id="pills-Vendor"
                             role="tabpanel"
-                            aria-labelledby="pills-home-tab"
+                            aria-labelledby="pills-Vendor-tab"
                         >
-                            <div>
-                                <p><b><span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span></b> We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost. We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.</p>
+                            <div className="p-3">
+                                <p>
+                                    <b>
+                                        <span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span>
+                                    </b> We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost.
+                                    We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.
+                                </p>
                                 <div className="row">
                                     <div class="col-12 col-md-6">
                                         <ul>
@@ -97,17 +102,17 @@ export const Services = () => {
                             </div>
                         </div>
                         <div
-                            className={`tab-pane fade ${activeTab === "pills-profile" ? "show active" : ""
+                            className={`tab-pane fade ${activeTab === "pills-implementation" ? "show active" : ""
                                 }`}
-                            id="pills-profile implementation"
+                            id="pills-implementation"
                             role="tabpanel"
-                            aria-labelledby="pills-profile-tab"
+                            aria-labelledby="pills-implementation-tab"
                         >
-                            <div class="pp-heading pp-left">
-                                <p>New System Implementations and system integration can be complex and financially risky. There is no substitute for experience to help you navigate the roadmap to success. System implementation and integration services are some of our core competencies.</p>
-                                <p>We can help your organization save millions of dollars and significantly reduce the cost of complex large scale system implementations such as payer core claim and hospital EMR/EHR applications as well as many others.</p>
-                                <p>Our team of professionals offer in depth knowledge and experience with the industry’s leading payer and hospital applications. This expertise can translate into project cost reductions for your organization resulting in millions of dollars over the life of the project. More importantly, our unparalleled expert knowledge of these leading applications will assure the success of your project objectives.</p>
-                                <p>We have already achieved this success for other clients. There is no reason why we cannot achieve the same results for you!</p>
+                            <div class="p-3">
+                                <p className="fnt-15 lh-225">New System Implementations and system integration can be complex and financially risky. There is no substitute for experience to help you navigate the roadmap to success. System implementation and integration services are some of our core competencies.</p>
+                                <p className="fnt-15 lh-225">We can help your organization save millions of dollars and significantly reduce the cost of complex large scale system implementations such as payer core claim and hospital EMR/EHR applications as well as many others.</p>
+                                <p className="fnt-15 lh-225">Our team of professionals offer in depth knowledge and experience with the industry’s leading payer and hospital applications. This expertise can translate into project cost reductions for your organization resulting in millions of dollars over the life of the project. More importantly, our unparalleled expert knowledge of these leading applications will assure the success of your project objectives.</p>
+                                <p className="fnt-15 lh-225">We have already achieved this success for other clients. There is no reason why we cannot achieve the same results for you!</p>
                             </div>
                         </div>
                     </div>
@@ -116,7 +121,7 @@ export const Services = () => {
 
                 <div id="operations_service" className="claims-service">
                     {/* 01 */}
-                    <div className="container px-0">
+                    <div className="container">
                         <hr />
                         <h2 className="fw-900 fnt-22 fnt-md-24 fnt-fly text-uppercase">Operations Consulting</h2>
                         <div className="row py-4 pb-md-5">

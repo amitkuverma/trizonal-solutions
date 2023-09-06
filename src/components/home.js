@@ -5,6 +5,9 @@ import '../assets/styles/conponents/home.scss'
 import Book from '../assets/images/strive-test.png';
 import Strive from '../assets/images/icon_med_book_white.png';
 import Doctor from '../assets/images/icon_doctor1.png';
+import Depositphotos_1 from '../assets/images/Depositphotos_23068096_xl-2015-scaled.jpg';
+import Depositphotos_2 from '../assets/images/Screen-Shot-2020-07-08-at-5.02.09-PM.png';
+import Depositphotos_3 from '../assets/images/Depositphotos_326087168_xl-2015-scaled.jpg';
 
 
 export const Home = () => {
@@ -106,7 +109,7 @@ export const Home = () => {
                           </div>
                         </div>
                         <div className="plethora_button wpb_content_element text-left ">
-                          <Link to={"/contact"} className=" btn btn-primary with-icon icon-left" target="_self">
+                          <Link to={"/contact"} className=" btn btn-primary update-btn">
                             <i className="fa fa-hospital-o"></i>
                             GET TO KNOW US!
                           </Link>
@@ -131,35 +134,41 @@ export const Home = () => {
                   <div className='col-12 col-md-4 pr-sm-0 pb-sm-4'>
                     {/* PROVIDERS */}
                     <div className='service-box'>
-                      <img className='img-fluid' src='https://healthallconsult.com/wp-content/uploads/2020/07/Depositphotos_23068096_xl-2015-scaled.jpg' alt='' />
+                      <img className='img-fluid' src={Depositphotos_1} alt='' />
                       <div className='p-3 text-center'>
                         <div className='fw-bold py-2'>PROVIDERS</div>
-                        <p>Trizonal Solution assists healthcare providers in using technology to increase performance, productivity, achieve clinical integration, optimization, improve patient care quality and wellness services.</p>
-                        <button className='btn btn-primary br-0'>More</button>
+                        <p className='lh-225 fnt-14'>Trizonal Solution assists healthcare providers in using technology to increase performance, productivity, achieve clinical integration, optimization, improve patient care quality and wellness services.</p>
+                        <div>
+                          <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
+                        </div>
                       </div>
                     </div>
                   </div>
                   <div className='col-12 col-md-4 pr-sm-0 pb-sm-4'>
                     {/* PAYERS */}
                     <div className='service-box'>
-                      <img className='img-fluid' src='https://healthallconsult.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-08-at-5.02.09-PM.png' alt='PAYERS' />
+                      <img className='img-fluid' src={Depositphotos_2} alt='PAYERS' />
                       <div className='p-3 text-center'>
                         <div className='fw-bold py-2'>PAYERS</div>
-                        <p className=''>
+                        <p className='lh-225 fnt-14'>
                           Our focus is on your core claim system. We offer Subject Matter Experts (Configuration, BA’s SA’s Developers, Project Managers and more). Through the deployment of industry best practices combined with deep system and operations knowledge, we can help your organization fully optimize the functionality of your core claim system to reduce operational cost and also help achieve your business and Information Technology objectives.
                         </p>
-                        <button className='btn btn-primary br-0'>More</button>
+                        <div>
+                          <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
+                        </div>
                       </div>
                     </div>
                   </div>
                   <div className='col-12 col-md-4 pr-sm-0 pb-sm-4'>
                     {/* HOSPITALS */}
                     <div className='service-box'>
-                      <img className='img-fluid' src='https://healthallconsult.com/wp-content/uploads/2020/07/Depositphotos_326087168_xl-2015-scaled.jpg' alt='HOSPITALS' />
+                      <img className='img-fluid' src={Depositphotos_3} alt='HOSPITALS' />
                       <div className='p-3 text-center'>
                         <div className='fw-bold py-2'>HOSPITALS</div>
-                        <p>Need help with your EMR, financial or other departmental system implementation, or improve revenue performance? If so, these services represent our core competencies and we welcome the opportunity to be of service!</p>
-                        <button className='btn btn-primary br-0'>More</button>
+                        <p className='lh-225 fnt-14'>Need help with your EMR, financial or other departmental system implementation, or improve revenue performance? If so, these services represent our core competencies and we welcome the opportunity to be of service!</p>
+                        <div>
+                          <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
+                        </div>
                       </div>
                     </div>
                   </div>

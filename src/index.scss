@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  background-color: #efefef;
+  background-color: #efefef !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.lh-225 {
+  line-height: 22.5px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -61,6 +63,9 @@ code {
 }
 
 
+.fnt-14 {
+  font-size: 14px;
+}
 .fnt-15 {
   font-size: 15px;
 }
