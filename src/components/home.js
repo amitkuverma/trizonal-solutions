@@ -36,10 +36,13 @@ export const Home = () => {
                 <div className='text-center'>
                   <img className='img-fluid' src={Strive} alt='Strive' />
                   <div>
-                    <h4 className="text-white">
+                    <h4 className="text-white fnt-15 fnt-fly fw-900">
                       ELECTRONIC HEALTH RECORDS &amp; TELEMED
                     </h4>
-                    <p className="text-white">Taking Care of Patients</p>
+                    <p className="text-white fnt-13 fnt-fly">Taking Care of Patients</p>
+                    <div>
+                      <button className='btn btn-primary update-btn fnt-13 fnt-fly py-1'>MORE</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -47,10 +50,13 @@ export const Home = () => {
                 <div className='text-center'>
                   <img className='img-fluid' src={Book} alt='Book' />
                   <div>
-                    <h4 className="text-white">
-                      ELECTRONIC HEALTH RECORDS &amp; TELEMED
+                    <h4 className="text-white fnt-15 fnt-fly fw-900">
+                      PAYER IT & BUSINESS OPERATIONS
                     </h4>
-                    <p className="text-white">Taking Care of Patients</p>
+                    <p className="text-white fnt-13 fnt-fly">Maximize Your Bottom-Line</p>
+                    <div>
+                      <button className='btn btn-primary update-btn fnt-13 fnt-fly py-1'>MORE</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -58,10 +64,13 @@ export const Home = () => {
                 <div className='text-center'>
                   <img className='img-fluid' src={Doctor} alt='Doctor' />
                   <div>
-                    <h4 className="text-white">
-                      ELECTRONIC HEALTH RECORDS &amp; TELEMED
+                    <h4 className="text-white fnt-15 fnt-fly fw-900">
+                      REVENUE CYCLE MANAGEMENT
                     </h4>
-                    <p className="text-white">Taking Care of Patients</p>
+                    <p className="text-white fnt-13 fnt-fly">Recover Every Dollar</p>
+                    <div>
+                      <button className='btn btn-primary update-btn fnt-13 fnt-fly py-1'>MORE</button>
+                    </div>
                   </div>
                 </div>
               </div>
