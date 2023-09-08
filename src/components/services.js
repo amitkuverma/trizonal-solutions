@@ -179,7 +179,7 @@ export const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="wpb_column vc_column_container col-12 col-lg-6">
+                                <div className="service_column col-12 col-lg-6">
                                     <h1 className="text-white fnt-36 fnt-md-45 fnt-lg-60 fw-100">02</h1>
                                     <hr className="text-white" />
                                     <div className="elementor-widget-container">
@@ -259,7 +259,7 @@ export const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="wpb_column vc_column_container col-12 col-lg-6">
+                                <div className="service_column col-12 col-lg-6">
                                     <h1 className="text-white fnt-36 fnt-md-45 fnt-lg-60 fw-100">04</h1>
                                     <hr className="text-white" />
                                     <div className="elementor-widget-container">

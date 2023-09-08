@@ -1,10 +1,18 @@
 .claims-service {
-  padding: 40px 20px 50px;
+  padding: 40px 0 50px;
   @media (min-width: 768px) {
-    padding: 60px 32px 50px;
+    padding: 60px 0px 50px;
   }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     padding: 0px;
+  }
+  .service_column {
+    @media (max-width: 768px) {
+      padding: 30px 15px 15px 15px;
+    }
+    @media (max-width: 992px) {
+      padding: 5% 2% 2% 2%;
+    }
   }
 
   .elementor-element-populated {
@@ -80,9 +88,11 @@
 
 .service-tabs {
   .nav-item {
-    @media (max-width:767px) {
-      font-size: 12px;
-      padding: 8px;
+    @media (max-width: 767px) {
+      .tab-btn {
+        font-size: 12px;
+        padding: 8px;
+      }
     }
     .active {
       background-color: #4092df !important;
@@ -99,6 +109,6 @@
   }
 }
 
-.service-box{
+.service-box {
   position: relative;
 }
