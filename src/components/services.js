@@ -74,7 +74,7 @@ export const Services = () => {
                             <div className="p-3">
                                 <p>
                                     <b>
-                                        <span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">HealthAll Consulting</span>, our payer services focus on your core claim and medical management systems.</span>
+                                        <span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">Trizonal solution</span>, our payer services focus on your core claim and medical management systems.</span>
                                     </b> We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost.
                                     We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.
                                 </p>

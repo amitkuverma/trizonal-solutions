@@ -1,5 +1,5 @@
 .blogs {
-  .blogs-header{
+  .blogs-header {
     position: relative;
     .hdr-blog {
       position: absolute;
@@ -7,5 +7,15 @@
       background-color: rgba(40, 60, 94, 0.5);
     }
   }
-  
+  .left-side {
+    ul {
+      list-style: none;
+      a{
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
