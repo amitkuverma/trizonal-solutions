@@ -1,7 +1,7 @@
 .claims-service {
-  padding: 40px 0px 50px;
+  padding: 40px 20px 50px;
   @media (min-width: 768px) {
-    padding: 60px 0px 50px;
+    padding: 60px 32px 50px;
   }
   @media (min-width: 992px) {
     padding: 0px;
@@ -80,6 +80,10 @@
 
 .service-tabs {
   .nav-item {
+    @media (max-width:767px) {
+      font-size: 12px;
+      padding: 8px;
+    }
     .active {
       background-color: #4092df !important;
       color: #ffffff !important;
