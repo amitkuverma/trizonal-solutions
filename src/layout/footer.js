@@ -17,8 +17,8 @@ export const Footer = () => {
             </div>
             <div className='col-12 col-lg-6'>
               <div className='fnt-18 fnt-fly fw-900 text-uppercase pb-1 pb-md-4'>Trizonal Solutions</div>
-              <p className='mb-1'><b>Email:</b> healthcare@trizonalsolutions.com</p>
-              <p><b>Address:</b> Cigna Healthcare. New York, New York, United States</p>
+              <p className='mb-1'><b>Email:</b> <a href="mailto:info@trizonalsolutions.com">info@trizonalsolutions.com</a></p>
+              <p><b>Address:</b> 78, Landmark Lane Fairlawn, NJ 07410 </p>
             </div>
           </div>
         </div>

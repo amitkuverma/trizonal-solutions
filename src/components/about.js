@@ -23,7 +23,7 @@ export const About = () => {
                         <div className="wpb_wrapper">
                             <h3 className="text-uppercase">What We Do Best:</h3>
                             <p className="heading-title">We help your organization reduce its cost of operations and maximize its investment in information technology. In short, our client references can attest to this success. This confidence and success is based on our talented team of veteran healthcare professionals that offer extensive experience and a proven track record in assisting payers and providers with such accomplishments. Our healthcare professionals offer unmatched operations and IT knowledge and are second to none in the industry.</p>
-                            <p><strong>In brief,&nbsp;<span className="cstm-text-blue">Trizonal Solutions</span>&nbsp;is dedicated to helping healthcare organizations:</strong></p>
+                            <p><strong>In brief,&nbsp;<span className="cstm-text-blue">Trizonal Solution</span>&nbsp;is dedicated to helping healthcare organizations:</strong></p>
                             <ul>
                                 <li>Reduce the cost of operations</li>
                                 <li>Maximize their investment in information technology</li>
@@ -47,8 +47,8 @@ export const About = () => {
                         <div className="wpb_wrapper">
                             <h3 className="text-uppercase">About Us</h3>
                             <p>Our professional management consulting services focus exclusively on the healthcare industry dedicated to serving hospitals, health systems and payers.</p>
-                            <p>At Trizonal Solutions, we understand your business, that is the business of healthcare.</p>
-                            <p>Unlike many other consulting firms, at Trizonal Solutions, healthcare is our only line of business and our only focus. As a professional services organization, we are not trying to be “everything to everyone”. Therefore, the domain knowledge, industry best practices, and practical experience that we bring to client engagements is unmatched by the competition and results in effective solutions and success for our clients.</p>
+                            <p>At Trizonal Solution, we understand your business, that is the business of healthcare.</p>
+                            <p>Unlike many other consulting firms, at Trizonal Solution, healthcare is our only line of business and our only focus. As a professional services organization, we are not trying to be “everything to everyone”. Therefore, the domain knowledge, industry best practices, and practical experience that we bring to client engagements is unmatched by the competition and results in effective solutions and success for our clients.</p>
                             <p><strong>Our core competencies focus on helping your organization with:</strong></p>
                             <p>Reducing the cost of operations<br />
                                 Core system implementation and integration<br />

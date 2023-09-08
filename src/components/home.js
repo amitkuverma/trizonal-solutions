@@ -76,7 +76,7 @@ export const Home = () => {
                 <div className="">
                   <div className="">
                     <div className="">
-                      <h1><strong>Welcome to Trizonal Solutions</strong></h1>
+                      <h1><strong>Welcome to Trizonal Solution</strong></h1>
                       <p>Trizonal Solution is a firm that is dedicated and focused entirely on the healthcare industry market with two key areas of focus – <strong>Providers </strong>and<strong> Payers</strong>.</p>
                       <p>Executives of the company are well connected to Subject Matter Experts and senior healthcare professionals that offer deep domain experience that will deliver optimal results in helping your organization meet its objectives.</p>
                       <p>Trizonal Solution's service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services. Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
