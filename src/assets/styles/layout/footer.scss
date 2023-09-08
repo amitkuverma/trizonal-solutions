@@ -21,6 +21,18 @@
   }
 }
 
+.line{
+ &::after {
+  border-top: 1px solid;
+  border-color: inherit;
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 100%;
+  left: 1.5%;
+}
+}
 .contact_detail {
   a {
     color: #2c4167;

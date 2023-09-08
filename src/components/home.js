@@ -76,7 +76,7 @@ export const Home = () => {
                 <div className="">
                   <div className="">
                     <div className="">
-                      <h1><strong>Welcome to Trizonal Solution</strong></h1>
+                      <h1 className='text-uppercase'><strong>Welcome to Trizonal Solution</strong></h1>
                       <p>Trizonal Solution is a firm that is dedicated and focused entirely on the healthcare industry market with two key areas of focus – <strong>Providers </strong>and<strong> Payers</strong>.</p>
                       <p>Executives of the company are well connected to Subject Matter Experts and senior healthcare professionals that offer deep domain experience that will deliver optimal results in helping your organization meet its objectives.</p>
                       <p>Trizonal Solution's service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services. Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
@@ -87,7 +87,7 @@ export const Home = () => {
                       <div className="">
                         <div className="">
                           <div className="">
-                            <h3><strong>Dedicated to helping healthcare organizations:</strong></h3>
+                            <h3 className='text-uppercase fnt-md-24'><strong>Dedicated to helping healthcare organizations:</strong></h3>
                             <ul>
                               <li>Reduce the cost of operations</li>
                               <li>Maximize their investment in information technology</li>
@@ -99,17 +99,11 @@ export const Home = () => {
                         </div>
 
                         <div className="">
-                          <div className="">
-                            <div className="">
-                              <div className="">
-                                <h3><strong>Our Clients Include:</strong></h3>
-                                <p>Hospitals, IDN’s, HMO’s, PPO’s, TPA’s, Blue Cross and Blue Shield plans, software vendors, physician practices and global consulting firm business partners throughout the United States, and the Caribbean.</p>
-                              </div>
-                            </div>
-                          </div>
+                          <h3 className='text-uppercase fnt-md-24'><strong>Our Clients Include:</strong></h3>
+                          <p>Hospitals, IDN’s, HMO’s, PPO’s, TPA’s, Blue Cross and Blue Shield plans, software vendors, physician practices and global consulting firm business partners throughout the United States, and the Caribbean.</p>
                         </div>
-                        <div className="plethora_button wpb_content_element text-left ">
-                          <Link to={"/contact"} className=" btn btn-primary update-btn">
+                        <div className="plethora_button text-left ">
+                          <Link to={"/contact"} className=" btn btn-primary update-btn fnt-fly fw-bold">
                             <i className="fa fa-hospital-o"></i>
                             GET TO KNOW US!
                           </Link>
@@ -125,7 +119,7 @@ export const Home = () => {
         <session >
           <div className="service-portfolio">
             <div className='container py-4'>
-              <div className='text-white fnt-36 fnt-md-56 fw-900'>
+              <div className='text-white fnt-36 fnt-md-56 fw-900 text-uppercase'>
                 Service Portfolio
               </div>
               <p className='text-white fnt-16'>Learn more about the services we offer.</p>

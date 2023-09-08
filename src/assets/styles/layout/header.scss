@@ -72,6 +72,9 @@
         }
       }
       .inner-dropdown {
+        a {
+          font-size: 11px;
+        }
         &::after {
           content: "\203A";
           position: absolute;
