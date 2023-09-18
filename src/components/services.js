@@ -121,7 +121,7 @@ export const Services = () => {
 
                 <div id="operations_service" className="claims-service">
                     {/* 01 */}
-                    <div className="container">
+                    {/* <div className="container">
                         <hr />
                         <h2 className="fw-900 fnt-22 fnt-md-24 fnt-fly text-uppercase">Operations Consulting</h2>
                         <div className="row py-4 pb-md-5">
@@ -165,9 +165,9 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* 02 */}
-                    <div className="bg-dark">
+                    {/* <div className="bg-dark">
                         <div className="container">
                             <div className="row py-4 py-md-5">
                                 <div className="col-12 col-lg-6">
@@ -201,9 +201,9 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* 03 */}
-                    <div className="container px-0">
+                    {/* <div className="container px-0">
                         <div className="row py-4 py-md-5">
                             <div className="col-12 col-lg-6 d-md-none">
                                 <div className="elementor-widget-wrap elementor-element-populated populated-image3">
@@ -245,9 +245,9 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* 04 */}
-                    <div className="bg-dark">
+                    {/* <div className="bg-dark">
                         <div className="container">
                             <div className="row py-4 py-md-5">
                                 <div className="col-12 col-lg-6">
@@ -280,9 +280,9 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* 05 */}
-                    <div className="container px-0">
+                    {/* <div className="container px-0">
                         <div className="row py-4 py-md-5">
                             <div className="col-12 col-lg-6 d-md-none">
                                 <div className="elementor-widget-wrap elementor-element-populated populated-image5">
@@ -328,9 +328,9 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* support service */}
-                    <div className="support">
+                    {/* <div className="support">
                         <div className="row mx-0 justify-content-end">
                             <div className="col-lg-8 bg-clr49 p-4 p-lg-5">
                                 <div className="service-widget-wrap">
@@ -354,7 +354,7 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
