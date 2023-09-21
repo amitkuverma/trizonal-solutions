@@ -85,10 +85,10 @@ export const Home = () => {
                 <div className="">
                   <div className="">
                     <div className="">
-                      <h1 className='text-uppercase'><strong>Welcome to Trizonal Solution</strong></h1>
-                      <p>Trizonal Solution is a firm that is dedicated and focused entirely on the healthcare industry market with two key areas of focus – <strong>Providers </strong>and<strong> Payers</strong>.</p>
+                      <h1 className='text-uppercase'><strong>Welcome to Trizonal Solutions</strong></h1>
+                      <p>Trizonal Solutions is a firm that is dedicated and focused entirely on the healthcare industry market with two key areas of focus – <strong>Providers </strong>and<strong> Payers</strong>.</p>
                       <p>Executives of the company are well connected to Subject Matter Experts and senior healthcare professionals that offer deep domain experience that will deliver optimal results in helping your organization meet its objectives.</p>
-                      <p>Trizonal Solution's service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services. Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
+                      <p>Trizonal Solutions's service offerings will allow your organization to focus on what you do best, that is, improving the delivery of quality patient care and member services. Let us do what we do best, helping you reduce operating cost and maximize your investment in information technology.</p>
                     </div>
                   </div>
                   <div className="">
@@ -140,7 +140,7 @@ export const Home = () => {
                       <img className='img-fluid' src={Depositphotos_1} alt='' />
                       <div className='p-3 text-center'>
                         <div className='fw-bold py-2'>PROVIDERS</div>
-                        <p className='lh-225 fnt-14'>Trizonal Solution assists healthcare providers in using technology to increase performance, productivity, achieve clinical integration, optimization, improve patient care quality and wellness services.</p>
+                        <p className='lh-225 fnt-14'>Trizonal Solutions assists healthcare providers in using technology to increase performance, productivity, achieve clinical integration, optimization, improve patient care quality and wellness services.</p>
                         <div>
                           <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
                         </div>
@@ -179,9 +179,9 @@ export const Home = () => {
                 <div className='col-12 col-lg-4 ms-lg-3'>
                   <div className='text-white fnt-18 fw-900 fnt-fly fnt-18'>OUR PROMISE TO YOU</div>
                   <div>
-                    <p className='text-white'>At Trizonal Solution, we provide “<strong>QUALITY</strong>” consulting that will meet the specific needs of your business.</p>
+                    <p className='text-white'>At Trizonal Solutions, we provide “<strong>QUALITY</strong>” consulting that will meet the specific needs of your business.</p>
                     <p className='text-white'>We are committed to providing our clients with the “<strong>BEST VALUE</strong>” for their investment.</p>
-                    <p className='text-white'>Trizonal Solution strives to create a lasting partnership with our clients based on “<strong>TRUST.</strong>”</p>
+                    <p className='text-white'>Trizonal Solutions strives to create a lasting partnership with our clients based on “<strong>TRUST.</strong>”</p>
                   </div>
                 </div>
               </div>

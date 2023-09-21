@@ -65,7 +65,7 @@ export const Contact = () => {
                         </div>
                         <div className="col-12 py-4 px-lg-0">
                             <h2>LOOKING FOR YOUR NEXT CAREER?</h2>
-                            <p>Trizonal Solution provides experts in area of operations and information technology management consulting services, specifically for the healthcare industry. Our firm delivers “Subject Matter Experts” when it comes to healthcare business needs. We are committed to helping Health Plans, Hospitals and Integrated Delivery Systems, reduce cost. Trizonal Solution hires only the very best; experienced in assisting healthcare organizations with improving the effectiveness of their operations and information technology infrastructures.</p>
+                            <p>Trizonal Solutions provides experts in area of operations and information technology management consulting services, specifically for the healthcare industry. Our firm delivers “Subject Matter Experts” when it comes to healthcare business needs. We are committed to helping Health Plans, Hospitals and Integrated Delivery Systems, reduce cost. Trizonal Solutions hires only the very best; experienced in assisting healthcare organizations with improving the effectiveness of their operations and information technology infrastructures.</p>
                         </div>
                     </div>
                 </div>
