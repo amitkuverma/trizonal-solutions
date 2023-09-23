@@ -7,7 +7,9 @@ import { Link } from "react-router-dom";
 export const Contact = () => {
 
     const [isModalOpen, setModalOpen] = useState(false);
-    const [emailSuccess, setEmailSuccess] = useState("Hello moto");
+    const [emailSuccess, setEmailSuccess] = useState("");
+    const [errorName, setErrorName] = useState("");
+    const [errorEmail, setErrorEmail] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
 
     const openModal = () => {
@@ -22,25 +24,35 @@ export const Contact = () => {
         e.preventDefault();
         // check if all required fields are filled in
         if (!e.target.name.value || !e.target.email.value || !e.target.message.value) {
-            setErrorMessage("Please fill in all required fields.");
+            if (!e.target.name.value) {
+                setErrorName("Please enter your name.");
+            } else {
+                setErrorName("");
+            }
+            if (!e.target.email.value) {
+                setErrorEmail("Please enter your email address.");
+            } else {
+                setErrorEmail("");
+            }
+            if (!e.target.message.value) {
+                setErrorMessage("Please enter a message.");
+            } else {
+                setErrorMessage("");
+            }
             return;
         }
 
         // https://www.emailjs.com/ for params
         // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-        // emailjs.sendForm('service_t6u6ogd', 'template_pohljbk', e.target, 'Tbv1CejqNwXHt_8nF')
-        //     .then((result) => {
-        //         console.log('Email sent successfully:', result);
-        //         console.log('Email sent successfully:', result.text);
-        //         setEmailSuccess(result.text)
-        //         openModal();
-        //         e.target.reset();
-        //     }, (error) => {
-        //         console.error('Email send error:', error.text);
-        //     });
-
-        openModal();
-        e.target.reset();
+        emailjs.sendForm('service_t6u6ogd', 'template_pohljbk', e.target, 'Tbv1CejqNwXHt_8nF')
+            .then((result) => {
+                console.log('Email sent successfully:', result);
+                setEmailSuccess(result.text)
+                openModal();
+                e.target.reset();
+            }, (error) => {
+                console.error('Email send error:', error.text);
+            });
 
     };
     return (
@@ -52,23 +64,23 @@ export const Contact = () => {
                             <h1 className="text-white">CONTACT US TODAY!</h1>
                             <form onSubmit={sendEmail}>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Name (required)</label>
-                                    <input type="text" name="name" className="form-control fw-bold" placeholder="Recipient Name" required />
+                                    <label htmlFor="exampleInputEmail1" className="form-label text-white fw-bold">Your Name (required)</label>
+                                    <input type="text" name="name" className="form-control fw-bold" placeholder="Recipient Name" />
+                                    <p className="text-white">{errorName}</p>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Email (required)</label>
-                                    <input type="email" name="email" className="form-control fw-bold" placeholder="Recipient Email" required />
+                                    <label htmlFor="exampleInputEmail1" className="form-label text-white fw-bold">Your Email (required)</label>
+                                    <input type="email" name="email" className="form-control fw-bold" placeholder="Recipient Email" />
+                                    <p className="text-white">{errorEmail}</p>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Subject</label>
+                                    <label htmlFor="exampleInputEmail1" className="form-label text-white fw-bold">Subject</label>
                                     <input type="text" name="subject" className="form-control fw-bold" placeholder="Subject" />
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Message</label>
-                                    <textarea name="message" rows={8} className="form-control fw-bold" placeholder="Message" required />
-                                </div>
-                                <div className="mb-3">
-                                    <p className="text-danger">{errorMessage}</p>
+                                    <label htmlFor="exampleInputEmail1" className="form-label text-white fw-bold">Your Message</label>
+                                    <textarea name="message" rows={8} className="form-control fw-bold" placeholder="Message" />
+                                    <p className="text-white">{errorMessage}</p>
                                 </div>
                                 <div className="d-flex justify-content-end">
                                     <button type="submit" className="btn btn-primary send-btn">SEND</button>
@@ -90,7 +102,7 @@ export const Contact = () => {
                                         </ul>
                                     </li>
                                 </ul>
-                                <h4>CONTACT DETAILS</h4>
+                                {/* <h4>CONTACT DETAILS</h4> */}
                             </div>
 
                         </div>
@@ -114,7 +126,7 @@ export const Contact = () => {
                             {/* Modal content goes here */}
                             <div className="modal-header">
                                 <h5 className="modal-title" id="exampleModalCenterTitle">
-                                    Email sent successfully
+                                    Email sent successfully!
                                 </h5>
                                 {/* <button
                                     type="button"
@@ -126,7 +138,7 @@ export const Contact = () => {
                             </div>
                             <div className="modal-body">
                                 <h2 className="text-uppercase text-center">Thank you</h2>
-                                <p className="text-center">We sent your email! An expert will be in touch soon.</p>                                
+                                <p className="text-center">We sent your email! An expert will be in touch soon.</p>
                             </div>
                             <div className="modal-footer">
                                 <button

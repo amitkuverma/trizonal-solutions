@@ -74,12 +74,12 @@ export const Services = () => {
                             <div className="p-3">
                                 <p>
                                     <b>
-                                        <span class="cstm-text-blue-unitalic">At&nbsp;<span class="cstm-text-blue">Trizonal Solutions</span>, our payer services focus on your core claim and medical management systems.</span>
+                                        <span className="cstm-text-blue-unitalic">At&nbsp;<span className="cstm-text-blue">Trizonal Solutions</span>, our payer services focus on your core claim and medical management systems.</span>
                                     </b> We offer expert level knowledge about these core systems to help your organization achieve its objectives and reduce cost.
                                     We can help your organization successfully implement and utilize technologies that improve operational efficiency and solve complex member care management issues. View each category below to find out more information.
                                 </p>
                                 <div className="row">
-                                    <div class="col-12 col-md-6">
+                                    <div className="col-12 col-md-6">
                                         <ul>
                                             <li>FACETS™</li>
                                             <li>AMISYS</li>
@@ -89,7 +89,7 @@ export const Services = () => {
                                             <li>Health Solutions Plus</li>
                                         </ul>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div className="col-12 col-md-6">
                                         <ul>
                                             <li>Diamond</li>
                                             <li>Peradigm</li>
@@ -108,7 +108,7 @@ export const Services = () => {
                             role="tabpanel"
                             aria-labelledby="pills-implementation-tab"
                         >
-                            <div class="p-3">
+                            <div className="p-3">
                                 <p className="fnt-15 lh-225">New System Implementations and system integration can be complex and financially risky. There is no substitute for experience to help you navigate the roadmap to success. System implementation and integration services are some of our core competencies.</p>
                                 <p className="fnt-15 lh-225">We can help your organization save millions of dollars and significantly reduce the cost of complex large scale system implementations such as payer core claim and hospital EMR/EHR applications as well as many others.</p>
                                 <p className="fnt-15 lh-225">Our team of professionals offer in depth knowledge and experience with the industry’s leading payer and hospital applications. This expertise can translate into project cost reductions for your organization resulting in millions of dollars over the life of the project. More importantly, our unparalleled expert knowledge of these leading applications will assure the success of your project objectives.</p>
