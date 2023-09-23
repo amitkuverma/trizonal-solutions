@@ -27,7 +27,7 @@ export const OurClients = () => {
                                 Provider Engagements
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export const OurClients = () => {
                                 Payer Engagements
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export const OurClients = () => {
                                 Gainwell Technology
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export const OurClients = () => {
                                 Molina HealthCare
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ export const OurClients = () => {
                                 BCBS
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ export const OurClients = () => {
                                 State of Ohio
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export const OurClients = () => {
                                 Cognizant
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ export const OurClients = () => {
                                 Emids
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export const OurClients = () => {
                                 Anthem
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ export const OurClients = () => {
                                 CVS HealthCare
                             </h4>
                             <div className="text-center pb-3">
-                                <button className="btn btn-primary update-btn py-1 text-uppercase fnt-fly">More</button>
+                                <button className="btn-secondary text-uppercase fnt-14 py-1 px-4 fnt-fly">More</button>
                             </div>
                         </div>
                     </div>

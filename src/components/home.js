@@ -41,7 +41,7 @@ export const Home = () => {
                     </h4>
                     <p className="text-white fnt-13 fnt-fly">Taking Care of Patients</p>
                     <div>
-                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none'>MORE</Link>
+                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly fnt-10 py-1 px-4 text-decoration-none'>MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ export const Home = () => {
                     </h4>
                     <p className="text-white fnt-13 fnt-fly">Maximize Your Bottom-Line</p>
                     <div>
-                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none'>MORE</Link>
+                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly fnt-10 py-1 px-4 text-decoration-none'>MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ export const Home = () => {
                     </h4>
                     <p className="text-white fnt-13 fnt-fly">Recover Every Dollar</p>
                     <div>
-                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none'>MORE</Link>
+                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly fnt-10 py-1 px-4 text-decoration-none'>MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export const Home = () => {
                         <div className='fw-bold py-2'>PROVIDERS</div>
                         <p className='lh-225 fnt-14'>Trizonal Solutions assists healthcare providers in using technology to increase performance, productivity, achieve clinical integration, optimization, improve patient care quality and wellness services.</p>
                         <div>
-                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none text-uppercase'>More</Link>
+                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly fnt-10 py-1 px-4 text-decoration-none text-uppercase'>More</Link>
                         </div>
                       </div>
                     </div>
@@ -157,7 +157,7 @@ export const Home = () => {
                           Our focus is on your core claim system. We offer Subject Matter Experts (Configuration, BA’s SA’s Developers, Project Managers and more). Through the deployment of industry best practices combined with deep system and operations knowledge, we can help your organization fully optimize the functionality of your core claim system to reduce operational cost and also help achieve your business and Information Technology objectives.
                         </p>
                         <div>
-                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none text-uppercase'>More</Link>
+                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly fnt-10 py-1 px-4 text-decoration-none text-uppercase'>More</Link>
                         </div>
                       </div>
                     </div>
@@ -170,7 +170,7 @@ export const Home = () => {
                         <div className='fw-bold py-2'>HOSPITALS</div>
                         <p className='lh-225 fnt-14'>Need help with your EMR, financial or other departmental system implementation, or improve revenue performance? If so, these services represent our core competencies and we welcome the opportunity to be of service!</p>
                         <div>
-                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none text-uppercase'>More</Link>
+                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly fnt-10 py-1 px-4 text-decoration-none text-uppercase'>More</Link>
                         </div>
                       </div>
                     </div>

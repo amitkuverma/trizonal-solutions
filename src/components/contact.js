@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 export const Contact = () => {
 
     const [isModalOpen, setModalOpen] = useState(false);
+    const [emailSuccess, setEmailSuccess] = useState("Hello moto");
+    const [errorMessage, setErrorMessage] = useState("");
 
     const openModal = () => {
         setModalOpen(true);
@@ -18,17 +20,28 @@ export const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        // check if all required fields are filled in
+        if (!e.target.name.value || !e.target.email.value || !e.target.message.value) {
+            setErrorMessage("Please fill in all required fields.");
+            return;
+        }
+
         // https://www.emailjs.com/ for params
         // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
         // emailjs.sendForm('service_t6u6ogd', 'template_pohljbk', e.target, 'Tbv1CejqNwXHt_8nF')
         //     .then((result) => {
+        //         console.log('Email sent successfully:', result);
         //         console.log('Email sent successfully:', result.text);
+        //         setEmailSuccess(result.text)
+        //         openModal();
         //         e.target.reset();
         //     }, (error) => {
         //         console.error('Email send error:', error.text);
         //     });
-        e.target.reset();
+
         openModal();
+        e.target.reset();
+
     };
     return (
         <Layout active={"contact"}>
@@ -40,11 +53,11 @@ export const Contact = () => {
                             <form onSubmit={sendEmail}>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Name (required)</label>
-                                    <input type="text" name="from_name" className="form-control fw-bold" placeholder="Recipient Name" required />
+                                    <input type="text" name="name" className="form-control fw-bold" placeholder="Recipient Name" required />
                                 </div>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Email (required)</label>
-                                    <input type="email" name="from_email" className="form-control fw-bold" placeholder="Recipient Email" required />
+                                    <input type="email" name="email" className="form-control fw-bold" placeholder="Recipient Email" required />
                                 </div>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label text-white fw-bold">Subject</label>
@@ -52,7 +65,10 @@ export const Contact = () => {
                                 </div>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label text-white fw-bold">Your Message</label>
-                                    <textarea name="message" rows={8} className="form-control fw-bold" placeholder="Message" />
+                                    <textarea name="message" rows={8} className="form-control fw-bold" placeholder="Message" required />
+                                </div>
+                                <div className="mb-3">
+                                    <p className="text-danger">{errorMessage}</p>
                                 </div>
                                 <div className="d-flex justify-content-end">
                                     <button type="submit" className="btn btn-primary send-btn">SEND</button>
@@ -98,29 +114,27 @@ export const Contact = () => {
                             {/* Modal content goes here */}
                             <div className="modal-header">
                                 <h5 className="modal-title" id="exampleModalCenterTitle">
-                                    Modal Title
+                                    Email sent successfully
                                 </h5>
-                                <button
+                                {/* <button
                                     type="button"
                                     className="close"
                                     onClick={closeModal}
                                 >
                                     <span aria-hidden="true">&times;</span>
-                                </button>
+                                </button> */}
                             </div>
                             <div className="modal-body">
-                                {/* Modal body content goes here */}
+                                <h2 className="text-uppercase text-center">Thank you</h2>
+                                <p className="text-center">We sent your email! An expert will be in touch soon.</p>                                
                             </div>
                             <div className="modal-footer">
                                 <button
                                     type="button"
-                                    className="btn btn-secondary"
+                                    className="btn-secondary fnt-14 py-1 px-4 text-uppercase"
                                     onClick={closeModal}
                                 >
                                     Close
-                                </button>
-                                <button type="button" className="btn btn-primary">
-                                    Save changes
                                 </button>
                             </div>
                         </div>
