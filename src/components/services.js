@@ -41,7 +41,7 @@ export const Services = () => {
                 </div>
                 {/* Tab  */}
 
-                <div className="container pt-3 pt-md-4 service-tabs">
+                <div className="container py-3 py-md-4 service-tabs">
                     <ul className="nav nav-pills" id="pills-tab" role="tablist">
                         <li className="nav-item" role="presentation">
                             <button

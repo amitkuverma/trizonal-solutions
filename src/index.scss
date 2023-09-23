@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
 body {
   margin: 0;
   background-color: #efefef !important;
@@ -15,7 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.br-f9-1{
+.br-f9-1 {
   border: 1px solid #4eabf9;
 }
 .txt-clrf9 {
@@ -49,7 +49,7 @@ code {
   font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.error{
+.error {
   color: rgb(118, 6, 6);
 }
 
@@ -63,6 +63,37 @@ code {
   &:hover {
     background-color: #4eabf9;
     color: #ffffff;
+  }
+}
+
+.btn-secondary {
+  padding: 4px 26px;
+  font-size: 10px !important;
+  color: #ffffff;
+  font-weight: 700;
+  border: 0px;
+  border-radius: 0px !important;
+  background-color: #304770 !important;
+  border-color: transparent !important;
+  &:hover {
+    color: #ffffff !important;
+    background-color: #21304c !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+  }
+}
+
+.send-btn{
+  padding: 6px 60px !important;
+  font-size: 14px !important;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0px !important;
+  border: 1px solid #1293ff !important;
+  background-color: #1293ff !important;
+  &:hover {
+    border: 1px solid #fff !important;
+    color: #ffffff !important;
+    background-color: #21304c !important;
   }
 }
 

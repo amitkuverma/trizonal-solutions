@@ -26,10 +26,10 @@ export const Footer = () => {
                   <a className='text-decoration-none add-text ps-2' href="mailto:info@trizonalsolutions.com">info@trizonalsolutions.com</a>
                 </span>
               </p>
-              <p class="contact_detail mb-0">
+              {/* <p class="contact_detail mb-0">
                 <i class="fa fa-location-arrow txt-clr67"></i>
                 <span><a className='text-decoration-none add-text ps-2' href="https://www.google.com/maps/place/" target="_blank">78, Landmark Lane Fairlawn, NJ 07410</a></span>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

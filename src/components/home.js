@@ -22,7 +22,7 @@ export const Home = () => {
                   <div className='text-01 text-white fnt-36 fnt-md-56'>TRIZONAL <br /> SOLUTIONS</div>
                   <div className='text-02 text-white fnt-20 fnt-md-30'>Your trusted business partner for <br /> Hospitals and Payers.</div>
                   <p className='text-white fnt-16 d-none d-md-block'>Contact us for quality and value you can trust.</p>
-                  <button className='btn get-btn btn-primary py-2 px-3'>Get in touch</button>
+                  <Link to={"/contact"} className='btn get-btn btn-primary py-2 px-3'>Get in touch</Link>
                 </div>
               </div>
             </div>
@@ -35,13 +35,13 @@ export const Home = () => {
               <div className='col-12 col-md-4 rhom1 bg-clr11 py-3 py-md-4 py-lg-5 mb-3'>
                 <div className='text-center'>
                   <img className='img-fluid' src={Strive} alt='Strive' />
-                  <div>
-                    <h4 className="text-white fnt-15 fnt-fly fw-900">
+                  <div className='pt-3'>
+                    <h4 className="text-white fnt-15 fnt-fly fw-900 mb-0">
                       ELECTRONIC HEALTH RECORDS &amp; TELEMED
                     </h4>
                     <p className="text-white fnt-13 fnt-fly">Taking Care of Patients</p>
                     <div>
-                      <button className='btn btn-primary update-btn fnt-13 fnt-fly py-1'>MORE</button>
+                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none'>MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -49,13 +49,13 @@ export const Home = () => {
               <div className='col-12 col-md-4 rhom2 bg-clr12 py-3 py-md-4 py-lg-5 mb-3'>
                 <div className='text-center'>
                   <img className='img-fluid' src={Book} alt='Book' />
-                  <div>
-                    <h4 className="text-white fnt-15 fnt-fly fw-900">
+                  <div className='pt-3'>
+                    <h4 className="text-white fnt-15 fnt-fly fw-900 mb-0">
                       PAYER IT & BUSINESS OPERATIONS
                     </h4>
                     <p className="text-white fnt-13 fnt-fly">Maximize Your Bottom-Line</p>
                     <div>
-                      <button className='btn btn-primary update-btn fnt-13 fnt-fly py-1'>MORE</button>
+                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none'>MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -63,13 +63,13 @@ export const Home = () => {
               <div className='col-12 col-md-4 rhom1 bg-clr13 py-3 py-md-4 py-lg-5 mb-3'>
                 <div className='text-center'>
                   <img className='img-fluid' src={Doctor} alt='Doctor' />
-                  <div>
-                    <h4 className="text-white fnt-15 fnt-fly fw-900">
+                  <div className='pt-3'>
+                    <h4 className="text-white fnt-15 fnt-fly fw-900 mb-0">
                       REVENUE CYCLE MANAGEMENT
                     </h4>
                     <p className="text-white fnt-13 fnt-fly">Recover Every Dollar</p>
                     <div>
-                      <button className='btn btn-primary update-btn fnt-13 fnt-fly py-1'>MORE</button>
+                      <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none'>MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export const Home = () => {
                         <div className='fw-bold py-2'>PROVIDERS</div>
                         <p className='lh-225 fnt-14'>Trizonal Solutions assists healthcare providers in using technology to increase performance, productivity, achieve clinical integration, optimization, improve patient care quality and wellness services.</p>
                         <div>
-                          <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
+                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none text-uppercase'>More</Link>
                         </div>
                       </div>
                     </div>
@@ -157,7 +157,7 @@ export const Home = () => {
                           Our focus is on your core claim system. We offer Subject Matter Experts (Configuration, BA’s SA’s Developers, Project Managers and more). Through the deployment of industry best practices combined with deep system and operations knowledge, we can help your organization fully optimize the functionality of your core claim system to reduce operational cost and also help achieve your business and Information Technology objectives.
                         </p>
                         <div>
-                          <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
+                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none text-uppercase'>More</Link>
                         </div>
                       </div>
                     </div>
@@ -170,7 +170,7 @@ export const Home = () => {
                         <div className='fw-bold py-2'>HOSPITALS</div>
                         <p className='lh-225 fnt-14'>Need help with your EMR, financial or other departmental system implementation, or improve revenue performance? If so, these services represent our core competencies and we welcome the opportunity to be of service!</p>
                         <div>
-                          <button className='btn btn-primary update-btn py-1 text-uppercase'>More</button>
+                          <Link to={"/service"} className='btn-xs btn-secondary fnt-fly text-decoration-none text-uppercase'>More</Link>
                         </div>
                       </div>
                     </div>
